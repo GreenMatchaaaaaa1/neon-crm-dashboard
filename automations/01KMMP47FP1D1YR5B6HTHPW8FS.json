@@ -1,0 +1,98 @@
+{
+  "version": "2",
+  "flowTitle": "Sync CRM to Google Sheets",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK",
+    "settings": {
+      "input": {
+        "type": "object",
+        "properties": {},
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "f1f1f1f1-a2a2-b3b3-c4c4-d5d5d5d5d5d5",
+      "valid": false,
+      "displayName": "Get All CRM Clients",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "tasks.find",
+        "input": {
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "njKwcoKERpcosf5Z"
+          },
+          "rowsToReturn": "all_matching_rows",
+          "noTasksFoundBehavior": "continue"
+        }
+      }
+    },
+    {
+      "name": "g2g2g2g2-b3b3-c4c4-d5d5-e6e6e6e6e6e6-outer",
+      "valid": true,
+      "displayName": "Loop Through Clients",
+      "type": "LOOP",
+      "settings": {},
+      "iteration": {
+        "name": "g2g2g2g2-b3b3-c4c4-d5d5-e6e6e6e6e6e6",
+        "valid": true,
+        "displayName": "Loop Through Clients Iteration",
+        "type": "LOOP_ITERATION",
+        "loopVariable": {
+          "type": "reference",
+          "path": [
+            "f1f1f1f1-a2a2-b3b3-c4c4-d5d5d5d5d5d5",
+            "tasks"
+          ]
+        },
+        "actions": [
+          {
+            "name": "h3h3h3h3-c4c4-d5d5-e6e6-f7f7f7f7f7f7",
+            "valid": false,
+            "displayName": "Add Client to Google Sheets",
+            "type": "PIECE",
+            "settings": {
+              "pieceName": "@taskade/automade-piece-googlesheets",
+              "pieceVersion": "BLANK",
+              "actionName": "googlesheets.addNewRowV2",
+              "input": {}
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "type": "http_response",
+      "body": {
+        "type": "json",
+        "data": {
+          "type": "basic",
+          "payload": [
+            {
+              "success": "true"
+            },
+            {
+              "message": "Sync completed"
+            }
+          ]
+        }
+      },
+      "key": "trigger"
+    }
+  ],
+  "variables": {
+    "njKwcoKERpcosf5Z": {
+      "id": "njKwcoKERpcosf5Z",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

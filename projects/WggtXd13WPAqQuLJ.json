@@ -1,0 +1,400 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "12345678-90ab-cdef-0123-456789abcdef",
+        "text": {
+          "ops": [
+            {
+              "insert": "Interaction History"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "23456789-0abc-def0-1234-56789abcdef0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Discovery call with Acme - Discussed Q1 requirements",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3456789a-bcde-f012-3456-789abcdef012",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Product demo for TechStart - Positive feedback",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "456789ab-cdef-0123-4567-89abcdef0123",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Contract negotiation with Global Solutions",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "56789abc-def0-1234-5678-9abcdef01234",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Follow-up email to Innovate Labs with pricing",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d7287bc4-d59e-403a-ba30-014d09fa11b8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for Digital Ventures"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "57d78caa-1423-4a8a-b617-a6615dfaf2c7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for CloudScale Systems"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e46cc9e8-6338-4d24-b0f0-b194575e56ca",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for NextGen Analytics"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "54c7f2d5-0d21-4178-9604-f0a743075cda",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for Quantum Dynamics"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0f4e3945-17ec-4621-a90f-3c2a8bb0dfe7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for Velocity Partners"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "9050a0f8-89a7-4315-81ba-ac3c32ad73cb",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for Horizon Media Group"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2c4cb6cd-9a65-4217-acc3-42617868c4e9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for Apex Solutions"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "efb56304-d549-4d3e-8a8e-26964c6a52a5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for Stellar Innovations"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "338a2928-885b-448d-92e6-69be7f603cfe",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for Fusion Technologies"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3f7b7aa2-c2cf-47e7-bbcc-cd0f0d73462e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for Pinnacle Enterprises"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "bb36fe29-bb92-4e9b-a9e9-0991522cefb9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome interaction logged for Odyssey Digital"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🏷️"
+    }
+  }
+}

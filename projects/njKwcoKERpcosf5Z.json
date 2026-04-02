@@ -1,0 +1,2116 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "text": {
+          "ops": [
+            {
+              "insert": "Client Relationships"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b2c3d4e5-f678-9012-3456-7890abcdef01",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Acme Corporation",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Acme Corporation",
+              "@cli02": "contact@acme.com",
+              "@cli03": "+1-555-0123",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "proposal"
+              },
+              "@cli05": 125000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-05"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "high"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c3d4e5f6-7890-1234-5678-90abcdef0123",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TechStart Inc",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "TechStart Inc",
+              "@cli02": "hello@techstart.io",
+              "@cli03": "+1-555-0456",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "qualified"
+              },
+              "@cli05": 75000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-06"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "medium"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d4e5f678-9012-3456-7890-abcdef012345",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Global Solutions Ltd",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Global Solutions Ltd",
+              "@cli02": "info@globalsolutions.com",
+              "@cli03": "+1-555-0789",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "negotiation"
+              },
+              "@cli05": 250000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-04"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "urgent"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e5f67890-1234-5678-90ab-cdef01234567",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Innovate Labs",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Innovate Labs",
+              "@cli02": "team@innovatelabs.co",
+              "@cli03": "+1-555-0321",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "lead"
+              },
+              "@cli05": 45000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-07"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "low"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f6789012-3456-7890-abcd-ef0123456789",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Enterprise Dynamics",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Enterprise Dynamics",
+              "@cli02": "sales@entdynamics.com",
+              "@cli03": "+1-555-0654",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "closed-won"
+              },
+              "@cli05": 180000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-03"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "high"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "67890123-4567-890a-bcde-f0123456789a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Digital Ventures",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Digital Ventures",
+              "@cli02": "contact@digitalventures.io",
+              "@cli03": "+1-555-1001",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "lead"
+              },
+              "@cli05": 35000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-06"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "low"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "78901234-5678-90ab-cdef-0123456789ab",
+            "text": {
+              "ops": [
+                {
+                  "insert": "CloudScale Systems",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "CloudScale Systems",
+              "@cli02": "hello@cloudscale.com",
+              "@cli03": "+1-555-1002",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "lead"
+              },
+              "@cli05": 52000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-05"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "medium"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "89012345-6789-0abc-def0-123456789abc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "NextGen Analytics",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "NextGen Analytics",
+              "@cli02": "info@nextgenanalytics.com",
+              "@cli03": "+1-555-1003",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "lead"
+              },
+              "@cli05": 68000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-07"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "high"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "90123456-789a-bcde-f012-3456789abcde",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Quantum Dynamics",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Quantum Dynamics",
+              "@cli02": "team@quantumdynamics.io",
+              "@cli03": "+1-555-1004",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "lead"
+              },
+              "@cli05": 41000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-04"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "medium"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "01234567-89ab-cdef-0123-456789abcdef",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Velocity Partners",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Velocity Partners",
+              "@cli02": "sales@velocitypartners.com",
+              "@cli03": "+1-555-1005",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "qualified"
+              },
+              "@cli05": 89000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-05"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "high"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "12345678-9abc-def0-1234-56789abcdef0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Horizon Media Group",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Horizon Media Group",
+              "@cli02": "contact@horizonmedia.com",
+              "@cli03": "+1-555-1006",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "qualified"
+              },
+              "@cli05": 95000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-06"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "urgent"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "23456789-abcd-ef01-2345-6789abcdef01",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Apex Solutions",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Apex Solutions",
+              "@cli02": "hello@apexsolutions.io",
+              "@cli03": "+1-555-1007",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "qualified"
+              },
+              "@cli05": 72000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-04"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "medium"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "34567890-bcde-f012-3456-789abcdef012",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Stellar Innovations",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Stellar Innovations",
+              "@cli02": "info@stellarinnovations.com",
+              "@cli03": "+1-555-1008",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "proposal"
+              },
+              "@cli05": 110000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-05"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "high"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "45678901-cdef-0123-4567-89abcdef0123",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Fusion Technologies",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Fusion Technologies",
+              "@cli02": "team@fusiontech.io",
+              "@cli03": "+1-555-1009",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "proposal"
+              },
+              "@cli05": 135000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-06"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "urgent"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "56789012-def0-1234-5678-9abcdef01234",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Pinnacle Enterprises",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Pinnacle Enterprises",
+              "@cli02": "sales@pinnacleent.com",
+              "@cli03": "+1-555-1010",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "proposal"
+              },
+              "@cli05": 98000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-07"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "medium"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "67890123-ef01-2345-6789-abcdef012345",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Momentum Corp",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Momentum Corp",
+              "@cli02": "contact@momentumcorp.com",
+              "@cli03": "+1-555-1011",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "negotiation"
+              },
+              "@cli05": 215000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-03"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "urgent"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "78901234-f012-3456-789a-bcdef0123456",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Zenith Systems",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Zenith Systems",
+              "@cli02": "hello@zenithsystems.io",
+              "@cli03": "+1-555-1012",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "negotiation"
+              },
+              "@cli05": 275000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-04"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "high"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "89012345-0123-4567-89ab-cdef01234567",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Catalyst Ventures",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Catalyst Ventures",
+              "@cli02": "info@catalystventures.com",
+              "@cli03": "+1-555-1013",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "negotiation"
+              },
+              "@cli05": 195000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-05"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "medium"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "90123456-1234-5678-9abc-def012345678",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Nexus Digital",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Nexus Digital",
+              "@cli02": "team@nexusdigital.io",
+              "@cli03": "+1-555-1014",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "negotiation"
+              },
+              "@cli05": 240000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-06"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "urgent"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "01234567-2345-6789-abcd-ef0123456789",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Vanguard Industries",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Vanguard Industries",
+              "@cli02": "sales@vanguardind.com",
+              "@cli03": "+1-555-1015",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "closed-won"
+              },
+              "@cli05": 320000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-02"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "high"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "12345678-3456-789a-bcde-f01234567890",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Summit Technologies",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Summit Technologies",
+              "@cli02": "contact@summittech.io",
+              "@cli03": "+1-555-1016",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "closed-won"
+              },
+              "@cli05": 285000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-01"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "medium"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "23456789-4567-89ab-cdef-012345678901",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Prism Analytics",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Prism Analytics",
+              "@cli02": "hello@prismanalytics.com",
+              "@cli03": "+1-555-1017",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "closed-won"
+              },
+              "@cli05": 165000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-03"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "low"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "34567890-5678-9abc-def0-123456789012",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Elevate Solutions",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Elevate Solutions",
+              "@cli02": "info@elevatesolutions.io",
+              "@cli03": "+1-555-1018",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "closed-won"
+              },
+              "@cli05": 195000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-01-02"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "high"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "45678901-6789-abcd-ef01-234567890123",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Frontier Labs",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Frontier Labs",
+              "@cli02": "team@frontierlabs.com",
+              "@cli03": "+1-555-1019",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "closed-lost"
+              },
+              "@cli05": 55000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2024-12-28"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "low"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "56789012-789a-bcde-f012-345678901234",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Beacon Enterprises",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Beacon Enterprises",
+              "@cli02": "sales@beaconent.io",
+              "@cli03": "+1-555-1020",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "closed-lost"
+              },
+              "@cli05": 42000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2024-12-30"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "medium"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "67890123-89ab-cdef-0123-456789012345",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Synergy Partners",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Synergy Partners",
+              "@cli02": "contact@synergypartners.com",
+              "@cli03": "+1-555-1021",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "closed-lost"
+              },
+              "@cli05": 38000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2024-12-29"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "low"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "78901234-9abc-def0-1234-567890123456",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Vertex Group",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Vertex Group",
+              "@cli02": "hello@vertexgroup.io",
+              "@cli03": "+1-555-1022",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "closed-lost"
+              },
+              "@cli05": 61000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2024-12-27"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "medium"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "89012345-abcd-ef01-2345-678901234567",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Odyssey Digital",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli01": "Odyssey Digital",
+              "@cli02": "info@odysseydigital.com",
+              "@cli03": "+1-555-1023",
+              "@cli04": {
+                "type": "Select",
+                "optionId": "closed-lost"
+              },
+              "@cli05": 47000,
+              "@cli06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2024-12-26"
+                }
+              },
+              "@cli07": {
+                "type": "Select",
+                "optionId": "low"
+              }
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "fields": {
+      "@cli01": {
+        "displayName": "Company",
+        "type": "string"
+      },
+      "@cli02": {
+        "displayName": "Contact Email",
+        "type": "string"
+      },
+      "@cli03": {
+        "displayName": "Phone",
+        "type": "string"
+      },
+      "@cli04": {
+        "displayName": "Status",
+        "type": "Select",
+        "options": {
+          "lead": {
+            "id": "lead",
+            "name": "Lead",
+            "rank": "0",
+            "color": "#A78BFA"
+          },
+          "qualified": {
+            "id": "qualified",
+            "name": "Qualified",
+            "rank": "1",
+            "color": "#60A5FA"
+          },
+          "proposal": {
+            "id": "proposal",
+            "name": "Proposal",
+            "rank": "2",
+            "color": "#34D399"
+          },
+          "negotiation": {
+            "id": "negotiation",
+            "name": "Negotiation",
+            "rank": "3",
+            "color": "#FBBF24"
+          },
+          "closed-won": {
+            "id": "closed-won",
+            "name": "Closed Won",
+            "rank": "4",
+            "color": "#10B981"
+          },
+          "closed-lost": {
+            "id": "closed-lost",
+            "name": "Closed Lost",
+            "rank": "5",
+            "color": "#EF4444"
+          }
+        }
+      },
+      "@cli05": {
+        "displayName": "Deal Value",
+        "type": "number",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "currency",
+          "config": {
+            "type": "standard",
+            "code": "USD"
+          }
+        }
+      },
+      "@cli06": {
+        "type": "DateTime",
+        "title": "Last Contact"
+      },
+      "@cli07": {
+        "displayName": "Priority",
+        "type": "Select",
+        "options": {
+          "low": {
+            "id": "low",
+            "name": "Low",
+            "rank": "0",
+            "color": "#94A3B8"
+          },
+          "medium": {
+            "id": "medium",
+            "name": "Medium",
+            "rank": "1",
+            "color": "#60A5FA"
+          },
+          "high": {
+            "id": "high",
+            "name": "High",
+            "rank": "2",
+            "color": "#F59E0B"
+          },
+          "urgent": {
+            "id": "urgent",
+            "name": "Urgent",
+            "rank": "3",
+            "color": "#EF4444"
+          }
+        }
+      }
+    },
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z"
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV"
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk"
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs"
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw"
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy"
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z"
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV"
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk"
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs"
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw"
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy"
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z"
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV"
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk"
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs"
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw"
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy"
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z"
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV"
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk"
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs"
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw"
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy"
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📚"
+    }
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "version": "2",
+  "flowTitle": "New Client Onboarding",
+  "trigger": {
+    "valid": false,
+    "displayName": "When New Client Added",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "BLANK",
+      "triggerName": "task.added",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "valid": false,
+      "displayName": "Log Welcome Interaction",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {
+          "content": "Welcome interaction logged for {{ trigger[\"nodeText\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "WggtXd13WPAqQuLJ"
+          }
+        }
+      }
+    },
+    {
+      "name": "b1a2b3c4-d5e6-f7a8-b9c0-d1e2f3a4b5c6",
+      "valid": true,
+      "displayName": "🎯 Priority Router",
+      "type": "BRANCH",
+      "settings": {},
+      "paths": [
+        {
+          "name": "c2d3e4f5-a6b7-c8d9-e0f1-a2b3c4d5e6f7",
+          "valid": true,
+          "displayName": "🔴 URGENT Priority",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_matches",
+                        "id": "daad6c48-e2ee-4888-a74d-b259624b459b",
+                        "data": "{{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli07\"] }}",
+                        "comparator": "Urgent"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "d3e4f5a6-b7c8-d9e0-f1a2-b3c4d5e6f7a8",
+              "valid": true,
+              "displayName": "🤖 Generate VIP Welcome",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-openai",
+                "pieceVersion": "BLANK",
+                "actionName": "ai.generate",
+                "input": {
+                  "input": "New VIP Client: {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli01\"] }} | Email: {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli02\"] }} | Deal Value: ${{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli05\"] }}",
+                  "prompt": "You are a senior account executive. Write a brief, warm, personalized VIP welcome message for a high-priority new client. Be professional yet enthusiastic. Include: acknowledging their urgent priority status and promising immediate attention."
+                }
+              }
+            },
+            {
+              "name": "e4f5a6b7-c8d9-e0f1-a2b3-c4d5e6f7a8b9",
+              "valid": false,
+              "displayName": "📝 Log VIP Onboarding",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "task.create",
+                "input": {
+                  "content": "🔴 URGENT VIP ONBOARDING: {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli01\"] }} | ${{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli05\"] }} deal | AI Message: {{ d3e4f5a6-b7c8-d9e0-f1a2-b3c4d5e6f7a8[\"result\"] }}",
+                  "position": "afterbegin",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "WggtXd13WPAqQuLJ"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "f5a6b7c8-d9e0-f1a2-b3c4-d5e6f7a8b9c0",
+          "valid": true,
+          "displayName": "🟠 HIGH Priority",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_matches",
+                        "id": "f02e9909-6c4d-44c9-a3c8-ff37c0a35e30",
+                        "data": "{{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli07\"] }}",
+                        "comparator": "High"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "a6b7c8d9-e0f1-a2b3-c4d5-e6f7a8b9c0d1",
+              "valid": true,
+              "displayName": "🤖 Generate Priority Welcome",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-openai",
+                "pieceVersion": "BLANK",
+                "actionName": "ai.generate",
+                "input": {
+                  "input": "High Priority Client: {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli01\"] }} | Contact: {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli02\"] }} | Value: ${{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli05\"] }}",
+                  "prompt": "You are a professional account manager. Write a brief, warm welcome message for a high-priority client. Be engaging and mention their valued status."
+                }
+              }
+            },
+            {
+              "name": "b7c8d9e0-f1a2-b3c4-d5e6-f7a8b9c0d1e2",
+              "valid": false,
+              "displayName": "📝 Log Priority Onboarding",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "task.create",
+                "input": {
+                  "content": "🟠 HIGH PRIORITY: {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli01\"] }} | ${{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli05\"] }} | AI: {{ a6b7c8d9-e0f1-a2b3-c4d5-e6f7a8b9c0d1[\"result\"] }}",
+                  "position": "afterbegin",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "WggtXd13WPAqQuLJ"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "c8d9e0f1-a2b3-c4d5-e6f7-a8b9c0d1e2f3",
+          "valid": true,
+          "displayName": "🟡 MEDIUM Priority",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_matches",
+                        "id": "80650434-b3a4-418d-a4b2-bfa4867a9d07",
+                        "data": "{{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli07\"] }}",
+                        "comparator": "Medium"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "d9e0f1a2-b3c4-d5e6-f7a8-b9c0d1e2f3a4",
+              "valid": true,
+              "displayName": "🤖 Generate Standard Welcome",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-openai",
+                "pieceVersion": "BLANK",
+                "actionName": "ai.generate",
+                "input": {
+                  "input": "New Client: {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli01\"] }} | Email: {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli02\"] }}",
+                  "prompt": "Write a friendly, professional welcome message for a new business client. Keep it concise and warm."
+                }
+              }
+            },
+            {
+              "name": "e0f1a2b3-c4d5-e6f7-a8b9-c0d1e2f3a4b5",
+              "valid": false,
+              "displayName": "📝 Log Standard Onboarding",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "task.create",
+                "input": {
+                  "content": "🟡 STANDARD: {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli01\"] }} | {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli02\"] }} | AI: {{ d9e0f1a2-b3c4-d5e6-f7a8-b9c0d1e2f3a4[\"result\"] }}",
+                  "position": "afterbegin",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "WggtXd13WPAqQuLJ"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "f1a2b3c4-d5e6-f7a8-b9c0-d1e2f3a4b5c6",
+          "valid": true,
+          "displayName": "🟢 LOW Priority (Fallback)",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "FALLBACK"
+            }
+          },
+          "actions": [
+            {
+              "name": "a2b3c4d5-e6f7-a8b9-c0d1-e2f3a4b5c6d7",
+              "valid": false,
+              "displayName": "📝 Log Basic Welcome",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "task.create",
+                "input": {
+                  "content": "🟢 NEW LEAD: {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli01\"] }} | {{ trigger[\"pRJXcDoU3ddkPQ32/fields/@cli02\"] }} | Added to nurture queue",
+                  "position": "beforeend",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "WggtXd13WPAqQuLJ"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "WggtXd13WPAqQuLJ": {
+      "id": "WggtXd13WPAqQuLJ",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}
